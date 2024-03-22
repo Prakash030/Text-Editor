@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="style.css">
+<title>Text Properties Editor</title>
+</head>
+<body>
+<div class="grid">
+  <div class="border">
+    <p id="sentence1">He's not the sharpest knife in the drawer.</p>
+  </div>
+  <div class="border gap">
+    <button class="button" onclick="makeBold('sentence1')">Bold</button>
+    <button class="button" onclick="makeItalic('sentence1')">Italic</button>
+    <button class="button" onclick="makeUnderline('sentence1')">Underline</button>
+    <input type="number" id="fontSize1" min="10" max="30" value="16">
+    <input type="color" id="color1" value="#000000">
+  </div>
+</div>
+
+<div class="grid">
+  <div class="border">
+    <p id="sentence2">The big building was blazing with lights.</p>
+  </div>
+  <div class="border gap">
+    <button class="button" onclick="makeBold('sentence2')">Bold</button>
+    <button class="button" onclick="makeItalic('sentence2')">Italic</button>
+    <button class="button" onclick="makeUnderline('sentence2')">Underline</button>
+    <input type="number" id="fontSize2" min="10" max="30" value="16">
+    <input type="color" id="color2" value="#000000">
+  </div>
+</div>
+<div class="grid">
+    <div class="border">
+      <p id="sentence3">Now you must answer some big questions.</p>
+    </div>
+    <div class="border gap">
+      <button class="button" onclick="makeBold('sentence3')">Bold</button>
+      <button class="button" onclick="makeItalic('sentence3')">Italic</button>
+      <button class="button" onclick="makeUnderline('sentence3')">Underline</button>
+      <input type="number" id="fontSize3" min="10" max="30" value="16">
+      <input type="color" id="color3" value="#000000">
+    </div>
+  </div>
+  <div class="grid">
+    <div class="border">
+      <p id="sentence4">Get Your Act Together!</p>
+    </div>
+    <div class="border gap">
+      <button class="button" onclick="makeBold('sentence4')">Bold</button>
+      <button class="button" onclick="makeItalic('sentence4')">Italic</button>
+      <button class="button" onclick="makeUnderline('sentence4')">Underline</button>
+      <input type="number" id="fontSize4" min="10" max="30" value="16">
+      <input type="color" id="color4" value="#000000">
+    </div>
+  </div>
+
+<script src="script.js"></script>
+</body>
+</html>
